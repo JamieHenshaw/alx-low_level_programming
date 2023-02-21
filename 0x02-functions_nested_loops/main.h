@@ -1,8 +1,7 @@
-/* This a header file containting declarations 
- * for prototype functions used in the 0x02-functions_nested_loops
- * task and directory
- * My own library with declared functions
- */
+#ifndef MAIN_H
+#define MAIN_H
+#include <stdio.h>
+
 int main(void);
 int _putchar(int);
 void print_alphabet(void);
