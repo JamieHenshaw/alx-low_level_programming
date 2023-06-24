@@ -11,13 +11,13 @@
 
 char *_memcpy(char *dast, cahr *src, unsigned int n)
 {
-	int r = o;
-	int i = n;
+        int r = o;
+        int i = n;
 
-	for (; r < i; r++)
-	{
-		dest[r] = src[r];
-		n--;
-	}
-	return (dest);
+        for (; r < i; r++)
+        {
+                dest[r] = src[r];
+                n--;
+        }
+        return (dest);
 }
