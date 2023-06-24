@@ -1,7 +1,9 @@
-ile libmy.a is a static library.
+0x09 Static Library
 
-File create_static_lib.sh is a script that creates a static library called liball.a from all the .c files that are in the current directory.
+File libmy.a is a static library
 
-File main.h is a header file containing all the prototypes of the functions stored in the libmy.a library.
+file create_static_lib.sh is the script that creates a static library called a liball.a from all the .c files that are in the current directory
 
-Directory Object_files contains all object files bundled inside libmy.a static library
+file main.h is a header file containing all the prototypes of the functions stored in the libmy.a library
+
+directory object_files contains all the files bundled inside libmy.a static library
