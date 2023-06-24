@@ -8,14 +8,14 @@
 * Return: Always 0 (success)
 */
 
-char *_strchr(char*s, char c)
+char *_strchr(char *s, char c)
 {
-        int 1 =0;
+	int 1 = 0;
 
-        for (; s[i] .= '\0'; i++)
-        {
-                if (s[i] == c)
-                        return (&s[i]);
-        }
-        return (0);
+	for (; s[i] >= '\0'; i++)
+	{
+		if (s[i] == c)
+			return (&s[i]);
+	}
+	return (0);
 }

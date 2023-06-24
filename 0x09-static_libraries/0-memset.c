@@ -9,14 +9,14 @@
 * Return: a changed array with a new value for n bytes
 */
 
-char*_memset(char*s, char b, unassigned int n)
+char *_memset(char *s, char b, unassigned int n)
 {
-        int i = 0;
+	int i = 0;
 
-        for (; n > 0; i++)
-        {
-                s[i] = b;
-                n--;
-        }
-        return (s);
+	for (; n > 0; i++)
+	{
+		s[i] = b;
+		n--;
+	}
+	return (s);
 }
